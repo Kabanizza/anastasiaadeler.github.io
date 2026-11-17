@@ -7,8 +7,8 @@ const CONFIG = {
   ABOUT_IMAGE_URL: "./about.jpg",  // stone-bench photo
   LIVING_ROOMS_URL: "https://livingroomstalk.com/",
 
-  // CSS filter for the About photo. "none" = original colour; "grayscale(1) sepia(.2)" = monochrome.
-  ABOUT_TONE: "sepia(.35) saturate(.85) contrast(.97)",
+  // CSS filter for the About photo. "none" = original colour; "grayscale(1)" = black & white.
+  ABOUT_TONE: "grayscale(1)",
 
   // PUBLICATIONS — newest first. To add an article, paste a new line at the top:
   // { year: 2026, title: "Title", outlet: "Outlet name", url: "https://..." }
