@@ -1,5 +1,8 @@
 # macOS
 .DS_Store
 
-# Original portrait source — the site uses the optimized hero.jpg
+# Build dependencies
+node_modules/
+
+# Original portrait source (the site uses assets/img/hero-*)
 hero.png

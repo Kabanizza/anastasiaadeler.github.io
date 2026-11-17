@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kabanizza.github.io/anastasiaadeler.github.io/sitemap.xml
