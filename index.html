@@ -81,9 +81,9 @@ tailwind.config = {
       <span>Founder: <b class="font-medium text-ink">Living Rooms</b></span>
     </div>
     <div class="mt-11 flex flex-col items-center gap-[18px] font-sans text-sm">
-      <a href="#about" class="transition-opacity hover:opacity-55">About Anastasia <span class="hidden md:inline">↓</span></a>
-      <a href="#publications" class="transition-opacity hover:opacity-55">Publications <span class="hidden md:inline">↓</span></a>
-      <a data-lr href="https://livingroomstalk.com/" target="_blank" rel="noopener noreferrer" class="mt-1.5 border border-ink px-[26px] py-3.5 transition-colors hover:bg-ink hover:text-paper">Living Rooms Project <span class="hidden md:inline">↗</span></a>
+      <a href="#about" class="transition-opacity hover:opacity-55">About Anastasia <span class="hidden lg:inline">↓</span></a>
+      <a href="#publications" class="transition-opacity hover:opacity-55">Publications <span class="hidden lg:inline">↓</span></a>
+      <a data-lr href="https://livingroomstalk.com/" target="_blank" rel="noopener noreferrer" class="mt-1.5 border border-ink px-[26px] py-3.5 transition-colors hover:bg-ink hover:text-paper">Living Rooms Project <span class="hidden lg:inline">↗</span></a>
     </div>
   </div>
 </section>
@@ -115,11 +115,11 @@ tailwind.config = {
 <section id="contact" class="bg-obsidian px-5 pt-20 text-paper md:px-10 md:pt-[clamp(100px,11vw,150px)]">
   <div class="rv pb-[clamp(90px,12vw,170px)] pt-4 text-center">
     <h2 class="text-[clamp(44px,7vw,96px)] font-normal uppercase leading-none">Let’s <em class="font-light normal-case">Correspond</em></h2>
-    <a href="mailto:wearelivingrooms@gmail.com" class="mt-10 inline-block border-b border-transparent pb-[3px] font-sans text-base transition-colors hover:border-current">wearelivingrooms@gmail.com <span class="hidden md:inline">→</span></a>
+    <a href="mailto:wearelivingrooms@gmail.com" class="mt-10 inline-block border-b border-transparent pb-[3px] font-sans text-base transition-colors hover:border-current">wearelivingrooms@gmail.com <span class="hidden lg:inline">→</span></a>
   </div>
   <div class="meta flex justify-between border-t border-paper/15 pb-[calc(26px+env(safe-area-inset-bottom))] pt-[26px] text-paper/60">
     <span>© Anastasia Adeler</span>
-    <a href="#hero" class="transition-colors hover:text-paper">Back to top <span class="hidden md:inline">↑</span></a>
+    <a href="#hero" class="transition-colors hover:text-paper">Back to top <span class="hidden lg:inline">↑</span></a>
   </div>
 </section>
 </main>
@@ -141,7 +141,7 @@ $('#rows').innerHTML = CONFIG.PUBLICATIONS.map((p) => `
       <span class="meta text-mute md:order-1">${p.year}</span>
       <span class="meta flex justify-between gap-3 text-mute md:order-3">
         <span>${esc(p.outlet)}</span>
-        <i class="hidden not-italic opacity-100 transition-all duration-300 md:inline md:-translate-x-1 md:translate-y-1 md:opacity-0 md:group-hover:translate-x-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">↗</i>
+        <i class="hidden not-italic opacity-100 transition-all duration-300 lg:inline md:-translate-x-1 md:translate-y-1 md:opacity-0 md:group-hover:translate-x-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">↗</i>
       </span>
     </span>
     <span class="text-[clamp(24px,2.3vw,28px)] leading-[1.2] transition-transform duration-300 group-hover:translate-x-1 md:order-2">${esc(p.title)}</span>
