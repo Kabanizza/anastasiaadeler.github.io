@@ -4,5 +4,10 @@
 # Build dependencies
 node_modules/
 
-# Original portrait source (the site uses assets/img/hero-*)
+# Original photo sources (the site uses assets/img/*)
 hero.png
+hero.PNG
+IMG_*.PNG
+IMG_*.JPG
+IMG_*.jpg
+IMG_*.jpeg
